@@ -1,0 +1,8 @@
+.idea
+venv
+__pycache__
+
+build
+assets
+maskrcnn_benchmark.egg-info
+maskrcnn_benchmark/_C.cp36-win_amd64.pyd
