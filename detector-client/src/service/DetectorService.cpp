@@ -47,7 +47,8 @@ void DetectorService::processImage(const cv::Mat &image) {
     QNetworkAccessManager networkManager;
     QNetworkRequest requestInfo;
 
-    QString url = "http://localhost:5000/api/detect/pil";
+//    QString url = "http://localhost:5000/api/detect/pil";
+    QString url = "http://region-11.autodl.com:26374/api/detect/pil";
     requestInfo.setUrl(QUrl(url));
     requestInfo.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded;charset=utf-8");
 

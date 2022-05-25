@@ -13,7 +13,7 @@ CvMediaPlayer::CvMediaPlayer(QQuickItem *parent) : QQuickFramebufferObject(paren
     timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(run()));
     //openPicture("C:/Users/Alberta/Desktop/73d2aae4c291fd4d9da620c98774dab.jpg");
-    openPicture(":/assets/img.png");
+    openPicture(":/assets/img.jpg");
 }
 
 QQuickFramebufferObject::Renderer *CvMediaPlayer::createRenderer() const {

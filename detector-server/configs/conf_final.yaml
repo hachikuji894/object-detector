@@ -1,6 +1,6 @@
 MODEL:
   META_ARCHITECTURE: "GeneralizedRCNN"
-  WEIGHT: "./assets/model_final.pth"
+  WEIGHT: "C:/model_final/model_final_mpsr_no_base.pth"
   BACKBONE:
     CONV_BODY: "R-101-FPN"
   RESNETS:
@@ -16,7 +16,7 @@ MODEL:
     USE_FPN: True
   ROI_BOX_HEAD:
     POOLER_RESOLUTION: 8
-    NUM_CLASSES: 23
+    NUM_CLASSES: 3
     POOLER_SCALES: (0.25, 0.125, 0.0625, 0.03125)
     POOLER_SAMPLING_RATIO: 2
     FEATURE_EXTRACTOR: "FPN2MLPFeatureExtractor"

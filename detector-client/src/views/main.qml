@@ -19,7 +19,7 @@ ApplicationWindow
     property color detectionRectanglesColor: "white"
 
     visible: true
-    property double screenFactor: 0.6
+    property double screenFactor: 0.8
 
     // fix the widget
     minimumWidth: Screen.width * screenFactor
